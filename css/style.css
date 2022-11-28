@@ -127,6 +127,7 @@ body {
 .card {
   width: 355px;
   height: 247px;
+  margin-right: -330px;
 }
 
 .google {
@@ -907,6 +908,9 @@ body {
   }
   .container-plane {
     max-width: 1600px;
+  }
+  .card {
+    margin-right: 0px;
   }
 }
 @media (max-width: 1440px) {
@@ -1742,5 +1746,121 @@ body {
   }
   .finish__container {
     height: 771px;
+  }
+}
+@media (max-width: 360px) {
+  .navbar-link-burger {
+    margin-left: -115px;
+  }
+  .f-logo {
+    width: 78px;
+    height: 24px;
+    margin-left: 20px;
+  }
+  .header-hero {
+    height: 652px;
+  }
+  .intro-title-1 {
+    margin-top: 180px;
+    margin-left: 20px;
+    width: 320px;
+  }
+  .intro-title-2 {
+    margin-left: 20px;
+    width: 320px;
+  }
+  .sakura_header {
+    font-size: 32px;
+    width: 320px;
+    height: 30px;
+  }
+  .sakura-text {
+    margin-top: 24px;
+    padding-top: 24px;
+  }
+  .pretty {
+    width: 360px;
+    height: 450px;
+  }
+  .sakura-container {
+    height: 862px;
+  }
+  .skillset-name {
+    font-size: 32px;
+    margin-left: 20px;
+  }
+  .skillset_text {
+    margin-top: 0px;
+    margin-left: 20px;
+  }
+  .flexbox_skillset {
+    margin-left: 20px;
+  }
+  .skillset__container {
+    height: 1205px;
+  }
+  .epic {
+    width: 360px;
+  }
+  .little-header {
+    margin-top: 64px;
+  }
+  .projects__container {
+    margin-left: 0px;
+  }
+  .right-side {
+    height: 1600px;
+  }
+  .left-side {
+    height: 1770px;
+  }
+  .big-header {
+    margin-bottom: 48px;
+  }
+  .my-projects {
+    height: 3484px;
+  }
+  .plane-header {
+    font-size: 32px;
+    margin-left: 20px;
+    margin-right: 0px;
+    margin-top: 48px;
+    margin-bottom: 16px;
+  }
+  .plane-text {
+    margin-left: 20px;
+    margin-right: 0px;
+  }
+  .follow-me, .line-2 {
+    margin-left: 20px;
+  }
+  .container-plane {
+    height: 720px;
+  }
+  .dribbble-header {
+    margin-top: 190px;
+  }
+  .dribbble-img {
+    width: 320px;
+    height: 516px;
+  }
+  .line-3 {
+    margin-bottom: 64px;
+  }
+  .review-header {
+    font-size: 32px;
+    line-height: 38px;
+    height: 78px;
+  }
+  .review-left {
+    margin-left: 20px;
+  }
+  .review-right {
+    margin-top: 315px;
+  }
+  .photography-header {
+    font-size: 32px;
+    margin-bottom: 0px;
+    margin-top: 0px;
   }
 }/*# sourceMappingURL=style.css.map */
